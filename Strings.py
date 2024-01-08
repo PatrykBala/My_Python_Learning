@@ -1,3 +1,5 @@
+"""Strings"""
+
 print("Hello, World!")
 print('Hello Patryk!')
 
@@ -9,6 +11,7 @@ print("Python")
 
 print("\\") #print \ sign
 print("\"") #print " sign
+print("I like \"Monty Python\"")
 
 print("My name is", "Python.", end=" ")
 print("Monty Python.") #end is a keyword argument
@@ -36,3 +39,5 @@ print("Monty", "Python.", sep="*", end="*\n")
 
 9. The end and sep parameters can be used for formatting the output of the print() function. The sep parameter specifies the separator between the outputted arguments, e.g., print("H", "E", "L", "L", "O", sep="-"), whereas the end parameter specifies what to print at the end of the print statement.
 """
+
+"""Literals"""
