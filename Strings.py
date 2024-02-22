@@ -22,6 +22,14 @@ print("My", "name", "is", "Monty", "Python.", sep="-") #sep is a keyword argumen
 print("My", "name", "is", sep="_", end="*")
 print("Monty", "Python.", sep="*", end="*\n")
 
+"James" * 3 gives "JamesJamesJames"
+3 * "an" gives "ananan"
+5 * "2" (or "2" * 5) gives "22222" (not 10!)
+                                    
+print("+" + 10 * "-" + "+")
+print(("|" + " " * 10 + "|\n") * 5, end="")
+print("+" + 10 * "-" + "+")
+
 """Key takeaways
 1. The print() function is a built-in function. It prints/outputs a specified message to the screen/console window.
 
