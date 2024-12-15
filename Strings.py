@@ -15,7 +15,7 @@ print("I like \"Monty Python\"")
 print('I\'m Monty Python.')
 print("I'm Monty Python.")
 
-print("My name is", "Python.", end=" ")
+print("My name is", "Python", end=".")
 print("Monty Python.") #end is a keyword argument
 print("My", "name", "is", "Monty", "Python.", sep="-") #sep is a keyword argument
 
